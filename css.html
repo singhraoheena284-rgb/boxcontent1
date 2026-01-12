@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Practice</title>
+
+    <style>
+        /* 15. Whole Page Vibe Check */
+        body {
+            margin: 0;
+            padding: 40px;
+            max-width: 900px;
+            margin-inline: auto;
+            font-family: 'Poppins', Arial, sans-serif;
+            background-color: #f7f8fc;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* 1. Main Character Energy */
+        h1 {
+            text-align: center;
+            font-size: 3.5rem;
+            text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+            transition: color 0.3s ease;
+        }
+
+        h1:hover {
+            color: #6c63ff;
+        }
+
+        /* 2. Subheading but Make It Aesthetic */
+        h3 {
+            text-align: center;
+            color: #b39ddb;
+            letter-spacing: 3px;
+            opacity: 0.8;
+        }
+
+        /* 3. Paragraph Glow-Up */
+        p:first-of-type {
+            background-color: #ffffff;
+            border-radius: 12px;
+            padding: 20px;
+            line-height: 1.8;
+            margin-bottom: 25px;
+        }
+
+        /* 4. Important Info but Dramatic */
+        p:nth-of-type(2) {
+            border: 4px solid #ff6f61;
+            background-color: #fff3f0;
+            padding: 20px;
+            transform: rotate(-1deg);
+            margin-bottom: 30px;
+        }
+
+        /* 5. HR but Make It Fancy */
+        hr {
+            width: 120px;
+            height: 6px;
+            background-color: #6c63ff;
+            border: none;
+            border-radius: 10px;
+            margin: 40px auto;
+        }
+
+        /* 6. Pre Tag = Hacker Mode */
+        pre {
+            background-color: #0f172a;
+            color: #22ff88;
+            font-family: monospace;
+            padding: 20px;
+            border-radius: 10px;
+            overflow-x: auto;
+        }
+
+        /* 7. Unordered List = Pinterest Vibes */
+        ul {
+            list-style: none;
+            background-color: #f1f3ff;
+            padding: 20px;
+            border-radius: 12px;
+        }
+
+        ul li {
+            margin-bottom: 10px;
+        }
+
+        /* 8. Ordered List = Step-by-Step Boss */
+        ol {
+            list-style-type: upper-roman;
+            font-weight: bold;
+            padding-left: 30px;
+        }
+
+        ol li {
+            margin-bottom: 12px;
+        }
+
+        /* 9. Link = Don’t Look Like a Link */
+        a {
+            text-decoration: none;
+            color: #6c63ff;
+            transition: all 0.3s ease;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* 10. Div = Card UI */
+        div {
+            border: 1px solid #ddd;
+            border-radius: 16px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+            padding: 25px;
+            margin: 30px 0;
+            background-color: #ffffff;
+        }
+
+        /* 11. Span = Accent Word */
+        span {
+            color: #ff6f61;
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+
+        /* 12. Button = Click Me or Else */
+        button {
+            padding: 14px 30px;
+            border-radius: 30px;
+            border: none;
+            background-color: #6c63ff;
+            color: white;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        /* 13. Button Hover Chaos */
+        button:hover {
+            background-color: #5548e8;
+            box-shadow: 0 10px 20px rgba(108, 99, 255, 0.4);
+            transform: scale(1.08);
+        }
+
+        /* 14. Footer but Low-Key */
+        footer {
+            font-size: 0.8rem;
+            color: #999;
+            text-align: center;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Main Character Energy</h1>
+
+    <h3>soft aesthetic subheading vibes</h3>
+
+    <p>
+        This is the first paragraph getting a full glow-up with spacing, rounded
+        corners, and calm energy.
+    </p>
+
+    <p>
+        This paragraph is IMPORTANT and dramatic. You must read this.
+    </p>
+
+    <hr>
+
+    <pre>
+const css = "hacker mode activated";
+console.log(css);
+    </pre>
+
+    <ul>
+        <li>Pinterest vibe item one</li>
+        <li>Pinterest vibe item two</li>
+        <li>Pinterest vibe item three</li>
+    </ul>
+
+    <ol>
+        <li>Step one</li>
+        <li>Step two</li>
+        <li>Step three</li>
+    </ol>
+
+    <p>
+        This is a <span>highlighted</span> word and a
+        <a href="#">mysterious link</a>.
+    </p>
+
+    <div>
+        This div is now a modern card UI.
+    </div>
+
+    <button>Click Me</button>
+
+    <footer>
+        © 2026 Soft Footer Energy
+    </footer>
+
+</body>
+</html>
